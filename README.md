@@ -1,2 +1,2 @@
-# Python_IMade
-python書いたやつ適当にいれていく
+# UsefulPythonScripts
+python書いたやつ適当にいれてく
