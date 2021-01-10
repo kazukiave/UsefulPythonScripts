@@ -36,7 +36,7 @@ def get_images_in_tate(page_idx):
             print("except{}".format(exc))
             return
 
-        global img_count #Pythonはglobal宣言しないと、関数内から値を変更できない
+        global img_count 
         with open(save_path + "{0:05d}".format(img_count) + str('.jpg'), 'wb') as f: 
             img_count += 1
             f.write(r.content)
