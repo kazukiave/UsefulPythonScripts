@@ -33,6 +33,9 @@ print(glob.glob('*.py'))
 print('\n任意の文字列から始まるファイル名を取得')
 print(glob.glob('__*'))
 
+#mkdir
+if not os.path.isdir(path):
+  os.mkdir(path)
 
 
 
