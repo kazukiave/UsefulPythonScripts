@@ -36,6 +36,8 @@ style_list = ['impressionism', 'realism', 'romanticism', 'expressionism',
             'hard-edge-painting', 'neo-romanticism', 'tachisme', 'pointillism', 
             'socialist-realism', 'neo-pop-art']
 
+
+#python genre_scraper.py --style lyrical-abstraction --num_pages 10 --output_dir lyrical_abstraction
 parser = argparse.ArgumentParser()
 parser.add_argument("--genre", help="which genre to scrape", choices=genre_list, default=None)
 parser.add_argument("--style", help="which style to scrape", choices=style_list, default=None)

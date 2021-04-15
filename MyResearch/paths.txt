@@ -1,0 +1,4 @@
+ImageFiles:
+C:\Users\kazuj\Documents\AnacondaProjects\anaconda_keras_gpu_myScripts\Abstract_Painting_256GAN\ResultImages_v0_v1
+
+ResultCSV:
